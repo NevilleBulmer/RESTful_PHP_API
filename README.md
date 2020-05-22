@@ -24,3 +24,5 @@ Used for creating hashes, salts and/or generating password hashes in there entir
 
 ### Class DatabaseConnectivity.php
 Utilising the singletone pattern, this is a database wrapplet class which abstracts all information for use with multiple databases and tables, this is acomplished by the abstraction, as using this technique there is no identifying information in this class, instead everything is held as a variable.
+
+### More to come.
