@@ -1,6 +1,5 @@
-# PHP-Helper-Classes-Including-A-Database-Wrapper
-An example of helper classes/functions including a database wrapper built in PHP.
-
+# RESTful PHP API
+A RESTful API built using vanilla PHP.
 See explanantions below for more information.
 
 Files will be uploaded once they are all complete.
