@@ -4,6 +4,72 @@ See explanantions below for more information.
 
 Files will be uploaded once they are all complete.
 
+The API is designed to be used in many contexts and with this in mind it returns and send all information in JSON, below is a representation of the file structure along with an explanation of the end points.
+
+* config
+  * Configuration.php
+* Part One
+
+  * API
+      * Accounts
+        * Login
+          * index.php
+          * POST
+          * http://localhost/W17019469/part1/api/accounts/login/index.html
+        * logout
+          * index.php
+          * POST
+          * http://localhost/W17019469/part1/api/accounts/logout/index.html
+        * signup
+          * index.php
+          * POST
+          * http://localhost/W17019469/part1/api/accounts/signup/index.html
+        * Presentations
+          * Category
+            * Index.php
+            * GET
+            * http://localhost/W17019469/part1/api/presentations/category/index.html
+          * Create
+            * Index.php
+            * POST
+            * http://localhost/W17019469/part1/api/presentations/create/index.html
+          * Remove
+            * Index.php
+            * POST
+            * http://localhost/W17019469/part1/api/presentations/remove/index.html
+          * Search
+            * Index.php
+            * POST
+            * http://localhost/W17019469/part1/api/presentations/search/index.html
+          * Schedule
+            * Index.php
+            * GET
+            * http://localhost/W17019469/part1/api/schedule/index.html
+          * search
+            * index.php
+            * POST
+            * http://localhost/W17019469/part1/api/schedule/search/index.html
+    * Index.php
+  * Classes
+    * CheckInput.php
+    * Configuration.php
+    * DatabaseConnectivity
+    * DatabaseWrapplet.php
+    * HashGenerator.php
+    * Redirect.php
+    * Session.php
+    * Token.php
+    * Validation.php
+    
+  * Database (If using SQLite)
+    * database.sqlite
+    
+  * local-html
+    * about (This is where you should hold your about page)
+    * documentation (This is where you should hold your documentation page)
+    * templates (If using OOP PHP, this is where you should hold you header, footer and main.php)
+    * index.php
+
 
 ### Class CheckInput.
 Checks is the input is POST or GET.
