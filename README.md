@@ -1,10 +1,13 @@
-# RESTful PHP API
+# RESTful PHP API along with an angular js front end example.
+
 A RESTful API built using vanilla PHP.
 See explanantions below for more information.
 
 Files will be uploaded once they are all complete.
 
 The API is designed to be used in many contexts and with this in mind it returns and send all information in JSON, below is a representation of the file structure along with an explanation of the end points.
+
+Along with an API, provided is an angular js front end example, this is to serve the purpouse of providing a full and concise example.
 
 * config
   * Configuration.php
