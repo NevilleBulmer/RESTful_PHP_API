@@ -1,5 +1,7 @@
 # RESTful PHP API along with an angular js front end example.
 
+### For the full API which is not currently documented, check 'Currently not documented'.
+
 A RESTful API built using vanilla PHP.
 See explanantions below for more information.
 
